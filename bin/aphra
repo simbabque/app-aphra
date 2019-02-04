@@ -29,7 +29,7 @@ See most of the rest of this documentation for the gory details.
 
 =item B<serve>
 
-Starts a local HTTP server which serves the files currently in the
+Starts a local HTTP server which L<build>s and serves the files from the
 output directory.
 
 You need to have L<App::HTTPThis> installed in order for this to work.

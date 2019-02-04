@@ -190,6 +190,8 @@ sub serve {
     croak "App::HTTPThis must be installed for 'serve' command";
   }
 
+  $self->build;
+
   local @ARGV = $self->config->{target};
   App::HTTPThis->new->run;
 }
